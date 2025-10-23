@@ -1,0 +1,47 @@
+.header {
+    background-color: darkred;
+    color: deeppink;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid lightblue;
+    border-radius: 10px; 
+}
+
+.footer {
+    background-color: #CC5500;
+    color: black; 
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    color: deepskyblue; 
+}
+body{
+    background-color: #CC5500;
+}
+p{
+    color: lightgoldenrodyellow;
+    font-size: larger;
+}
+
+ol{
+    color: darkorchid;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+}
+div:hover {
+    background-color: darksalmon; 
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
